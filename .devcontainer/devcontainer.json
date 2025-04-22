@@ -22,5 +22,7 @@
             ]
         }
     },
-    
+    "mounts": [
+        "source=${localEnv:USERPROFILE}\\.kaggle,target=/root/.kaggle,type=bind,consistency=cached"
+    ]
 }
