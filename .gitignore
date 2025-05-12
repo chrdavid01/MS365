@@ -1,2 +1,103 @@
 # Folders to ignore
 /original_stuff/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Installer logs
+install.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Setup artifacts
+*.egg-info/
+*.egg
+.eggs/
+
+# Wheel files
+*.whl
+
+# SQLite database
+*.sqlite3
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# AWS credentials
+*.pem
+
+# dotenv files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local test configs or secrets
+local_settings.py
