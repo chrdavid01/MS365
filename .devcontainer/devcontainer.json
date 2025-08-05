@@ -6,7 +6,6 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "amazonwebservices.amazon-q-vscode",
                 "ms-python.black-formatter",
                 "ms-vscode-remote.remote-containers",
                 "docker.docker",
