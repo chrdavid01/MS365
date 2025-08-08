@@ -1,9 +1,11 @@
 FROM python:3.13.3
 
+COPY requirements.txt /tmp/requirements.txt
+
 WORKDIR /workspace
 
 RUN pip install --upgrade pip && \
-    pip install black pandas kagglehub scikit-learn matplotlib numpy ipykernel imblearn
+    python -m pip install -r /tmp/requirements.txt
 
 COPY . /workspace
 

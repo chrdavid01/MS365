@@ -1,7 +1,8 @@
 {
     "name": "MS365 Class Solutions",
     "build": {
-        "dockerfile": "Dockerfile"
+        "dockerfile": "Dockerfile",
+        "context": ".."
     },
     "customizations": {
         "vscode": {
