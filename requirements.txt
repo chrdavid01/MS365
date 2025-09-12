@@ -16,11 +16,13 @@ imblearn==0.0
 ipykernel==6.30.1
 ipython==9.4.0
 ipython_pygments_lexers==1.1.1
+ipywidgets==8.1.7
 jedi==0.19.2
 joblib==1.5.1
 jupyter_client==8.6.3
 jupyter_core==5.8.1
-kagglehub==0.3.12
+jupyterlab_widgets==3.0.15
+kagglehub==0.3.13
 kiwisolver==1.4.8
 matplotlib==3.10.5
 matplotlib-inline==0.1.7
@@ -59,3 +61,4 @@ traitlets==5.14.3
 tzdata==2025.2
 urllib3==2.5.0
 wcwidth==0.2.13
+widgetsnbextension==4.0.14
